@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="login.css">
+    <title>Firebase login </title>
+</head>
+
+
+<body>
+
+  <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="https://chatroom-fksh.onrender.com"
+          id="logo">Logo</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse"  >
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="signup.html" id="sign-up" style="display: block;">Sign-up</a></li>
+                 <li><a href="#" id="logout" style="display: none;">Log Out</a></li>
+            </ul>
+        </div>
+        </div>
+  
+ 
+
+    
+    <div class="container">	
+        <form name="login_form" id="login_form" method="post" action="#" enctype="multipart/form-data" >
+        <div class="row">
+      
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label for="name" >Username</label>
+              <input type="name" name="name" id="name" class="form-control"  placeholder="Enter your name">
+            </div>
+              
+      
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+              </div>
+      
+             
+              
+              <div class="form-group">
+                <label for="password" >Password</label>
+                <input type="password" name="password" id="password" class="form-control"  placeholder="Enter your password">
+              </div>
+              <a href="signup.html">I don't have an account</a> <br> <br>
+              <div class="lable">
+                <label id="forgotpass" style="cursor: pointer;">Forgot Password</label> <br> <br>
+              <label id="goog" style="margin-left: 100px;" >Sign-in with Google</label> <br> <br>
+              </div>
+              
+              <div class="below">
+                <button type="button" id="login" name="login" class="btn btn-success">Login</button>
+              
+               
+                <div class="btn-border">
+                <div id="google-btn" class="google-btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                  <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                </svg></div>
+              </div>
+              
+              </div>
+             
+              
+          </div><!-- end col -->
+
+          
+      
+          
+      </div>
+
+  
+    <!--
+        <script type="module" src="login.js" ></script>
+      <script type="module" src="logout.js" ></script>
+       
+    -->
+    
+
+</body>
+</html>
